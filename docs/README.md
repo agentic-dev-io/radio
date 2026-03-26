@@ -1,5 +1,7 @@
 # DuckDB Radio Extension
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N71WOHZ3)
+
 The **Radio** extension by **Query.Farm** enables DuckDB to interact seamlessly with real-time event systems such as WebSocket servers, message queues, and event buses. It allows DuckDB to both **receive** and **send** events: incoming messages are buffered and queryable with standard SQL, while outgoing events are also buffered and support delivery tracking.
 
 The extension is named *Radio* because it effectively equips DuckDB with a two-way radio—allowing it to **listen for** and **broadcast** messages across event-driven systems.
@@ -54,4 +56,3 @@ Different tests can be created for DuckDB extensions. The primary way of testing
 ```sh
 make test
 ```
-
